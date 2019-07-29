@@ -46,6 +46,7 @@ pass: geraldine
 
 
 ------------------------------- FEATURE CHECKLIST -------------------------------
+
 This project includes all basic and advanced features from the checklist provided to us:
 
 
@@ -71,6 +72,7 @@ email is sent to both the top bid winner and the seller.
 If there was no winner, the seller is emailed.
 
 ----------------III Browsing and advanced search functionality
+
     
 Users are able to manually search both items(and their auctions) and users.
 They may also generate lists of auctions sorted by different criteria, including
@@ -81,6 +83,8 @@ past auctions from at least one month prior is given
 
 
 ----------------IV Alerts and Messaging functions
+
+
 BuyMyFurnitureAlerts will message users if another higher bid has been placed
 In the case of two autobids bidding against each other, the email will only send
 at the end of the cycle, and will only email the losing bidder (thus no spamming
@@ -99,6 +103,8 @@ included either questions or answers.
 
 
 ----------------V Customer representatives and admin functions
+
+
 Admin account has been made. In addition to having all of the functions
 of a rep, they uniquely can generate sales reports based on auctions
 that are closed and were sold. This includes total earnings, earnings
