@@ -1,0 +1,77 @@
+body{
+    /*change font style*/
+    padding: 20px;
+    font-family: 'Avenir';
+    background-color: #54426B;
+}
+a:hover { 
+    background-color: rgb(65, 230, 230);
+}
+input[type=submit]:hover{
+    color: #E9F1F7;
+}
+#title{
+    font-size: 80px;
+    text-align: center;
+    margin-bottom: 100px;
+    color: #E9F1F7;
+    font-family: 'Optima';
+}
+#loginWindow{
+    font-size: 14px;
+    width: 350px;
+    height: 450px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #E7DFC6;
+}
+#createWindow{
+    font-size: 14px;
+    width: 350px;
+    height: 850px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #E7DFC6;
+}
+#logo{
+    width: 164.4px;
+    height: 164.4px;
+    margin: auto;
+    padding-bottom: 20px;
+}
+#info{
+    font-size: 24px;
+}
+input[type=text]{
+    margin: auto;
+    margin-top: 20px;
+    background-color: #FFFFFF;
+    width: 300px;
+    height: 63px;
+    color: #CBC9C9;
+    font-size: 20px;
+    padding-left: 30px;
+    -webkit-border-radius: 5px;
+    border-radius: 10px; 
+    border:0 none;
+    -webkit-box-shadow: 1px 1px 1px 2px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+    -moz-box-shadow:    1px 1px 1px 2px #ccc;  /* Firefox 3.5 - 3.6 */
+    box-shadow:         1px 1px 1px 2px #ccc; 
+}
+input[type=submit]{
+    color: #54426B;
+    margin: auto;
+    padding: 20px;
+    background:none;
+    border:0 none;
+    cursor:pointer;
+    font-size: 24px;
+}
+#create{
+    padding-bottom: 20px;
+}
+#quickNote{
+    padding-bottom: 20px;
+}

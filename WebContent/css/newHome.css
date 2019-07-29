@@ -1,0 +1,101 @@
+body {
+    /*change font style*/
+    background-color: #54426B;
+    color: #626262;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Avenir';
+}
+
+/* The following three are tests for having a header image */
+/* height of the background image */
+div#wrapperHeader {
+ width:100%;
+ height;150px;
+ background: url("../images/headerBackground.png") repeat-x 0 0;
+ text-align:center;
+}
+
+div#wrapperHeader div#header {
+ width:1000px;
+ height:200px;
+ margin:0 auto;
+}
+
+div#wrapperHeader div#header img {
+ width:; /* the width of the logo image */
+ height:; /* the height of the logo image */
+ margin:0 auto;
+}
+
+header{
+    flex-basis: 1000px;
+    font-size: 40px;
+    font-style: italic;
+    margin: auto;
+
+}
+
+
+.navbar {
+    font-size: 18px;
+    background-color: antiquewhite;
+    padding-bottom: 10px;
+    display: flex;
+    padding-bottom: 0;
+    height: 70px;
+    align-items: center;
+}
+
+.main-nav {
+    list-style-type: none;
+    display: flex;
+    margin-right: 30px;
+   
+}
+.main-nav li {
+    text-align: center;
+    margin: 15px auto;
+}
+
+.nav-links:hover {
+    color: rgba(255, 255, 255, 1);
+
+}
+.nav-links {
+    margin-left: 40px;
+    text-decoration: none;
+    color: #626262;
+
+}
+
+
+.navbar-toggle {
+    display: none;
+}
+.active {
+    display: block;
+}
+
+
+#items{
+    background-color: aliceblue;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+#top{
+    background-color: #626262;
+    color: aliceblue;
+    padding: 30px;
+    font-size: 30px;
+}
+#options{
+    margin-top: 30px;
+}
+#bottom{
+    padding: 30px;
+}

@@ -1,0 +1,351 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+
+/* 
+Text of "Buy My Furniture" at the top 
+Font = white
+*/
+#Other_Name { display: none; }
+
+.app-name {
+    text-align: center;
+    font-weight: 900;
+    font-size: 44px;
+    color: #4C4B4B; 
+}
+
+/* Formatting for Login */
+.login-page {
+  width: 360px;
+  padding: 8% 0 0;
+  margin: auto;
+}
+
+/* formatting for home page */
+.home-page {
+  width: 360px;
+  padding: 8% 0 0;
+  margin: auto;
+}
+
+
+/* The following three are tests for having a header image */
+/* height of the background image */
+div#wrapperHeader {
+ width:100%;
+ height;150px;
+ background: url("../images/headerBackground.png") repeat-x 0 0;
+ text-align:center;
+}
+
+div#wrapperHeader div#header {
+ width:1000px;
+ height:200px;
+ margin:0 auto;
+}
+
+div#wrapperHeader div#header img {
+ width:; /* the width of the logo image */
+ height:; /* the height of the logo image */
+ margin:0 auto;
+}
+
+header{
+    flex-basis: 1000px;
+    font-size: 40px;
+    font-style: italic;
+    margin: auto;
+
+}
+
+
+/* 
+Generic formatting for headers 
+
+Old HEader
+header{
+    flex-basis: 1000px;
+    font-size: 40px;
+    font-style: italic;
+    margin: auto;
+
+}
+.logo {
+    text-decoration: none;
+    color: #626262;
+    margin-top: 0;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.logoImg{
+    width: 50px;
+    height: 50px;
+}
+
+.logo:hover,
+.navbar-toggle {
+    top: 10px;
+    right: 20px;
+    cursor: pointer;
+    font-size: 24px;
+
+}
+*/
+
+
+
+
+/*********************** FORMS ***********************************/
+.form {
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 440px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+
+/*Textboxes for Forms */
+.form input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #FAFAFA; /* Light Grey */
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+/*Buttons for Forms */
+.form select {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #E4EEFA;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+/*Buttons for selections in Forms */
+.form button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #E4EEFA;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #000000;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+
+/* Button hover for Forms */
+.form button:hover {
+  background: #FEF0EF;
+}
+
+.form button:active,.form button:focus {
+  background: #FEF0EF;
+}
+
+/* Messages in Forms*/
+.form .message {
+  margin: 15px 0 0;
+  color: #4C4B4B;
+  font-size: 12px;
+}
+
+/* Color of Links in Text */
+.form .message a {
+  color: #7997BA;
+  text-decoration: none;
+}
+
+/* Register Form */
+.form .register-form {
+  display: none;
+}
+
+
+/*********************** DISPLAY RESULTS ***********************************/
+.displayResults {
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 440px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: left;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+
+/*Textboxes for Forms */
+.displayResults input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #FAFAFA; /* Light Grey */
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+/*Buttons for Forms */
+.displayResults select {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #E4EEFA;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+/*Buttons for selections in Forms */
+.displayResults button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #E4EEFA;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #000000;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+
+/* Button hover for Forms */
+.displayResults button:hover {
+  background: #FEF0EF;
+}
+
+.displayResults button:active,.form button:focus {
+  background: #FEF0EF;
+}
+
+/* Messages in Forms*/
+.displayResults .message {
+  margin: 15px 0 0;
+  color: #4C4B4B;
+  font-size: 12px;
+}
+
+/* Color of Links in Text */
+.displayResults .message a {
+  color: #7997BA;
+  text-decoration: none;
+}
+
+
+/*********************** MESSAGES ***********************************/
+.message-red {
+  text-align: center;
+  color: #FEF0EF;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+/* Messages */
+.message {
+  margin: 15px 0 0;
+  color: #4C4B4B;
+  font-size: 12px;
+}
+
+.message-offer {
+  margin: 15px 0 0;
+  color: #4C4B4B;
+  font-size: 16px;
+}
+
+
+.message-white {
+  margin: 15px 0 0;
+  color: #4C4B4B;
+  font-size: 12px;
+}
+
+.message-logout {
+  margin: 15px 0 0;
+  color: #4C4B4B;
+  font-size: 16px;
+}
+
+.message a {
+  color: #7997BA;
+  text-decoration: none;
+}
+
+
+/* Padding on each side of p */
+.container {
+  position: relative;
+  z-index: 1;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.container:before, .container:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.container .info {
+  margin: 50px auto;
+  text-align: center;
+}
+
+.container .info h1 {
+  margin: 0 0 15px;
+  padding: 0;
+  font-size: 36px;
+  font-weight: 300;
+  color: #4C4B4B;
+}
+
+.container .info span {
+  color: #4C4B4B;
+  font-size: 12px;
+}
+
+.container .info span a {
+  color: #4C4B4B;
+  text-decoration: none;
+  
+}
+.container .info span .fa {
+  color: #4C4B4B;
+}
+
+
+body {
+  background: #FAF0E4; /* fallback for old browsers */
+  background: -webkit-linear-gradient(right, #FAF0E4, #FBF4EB);
+  background: -moz-linear-gradient(right, #FAF0E4, #FBF4EB);
+  background: -o-linear-gradient(right, #FAF0E4, #FBF4EB);
+  background: linear-gradient(to left, #FAF0E4, #FBF4EB);
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;      
+}
