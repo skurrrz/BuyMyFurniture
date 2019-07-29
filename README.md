@@ -21,6 +21,7 @@ Submitted: April 2019
 
 ---------------------- Necessary credentials ------------------------------
 
+
 -------- URL
 http://ec2-18-221-239-241.us-east-2.compute.amazonaws.com:8080/BuyMyFurniture/
 
@@ -37,12 +38,14 @@ http://ec2-18-221-239-241.us-east-2.compute.amazonaws.com:8080/BuyMyFurniture/
 
 
 
+
 ------------------------------- BuyMyFurniture Logins --------------------------
 
--------- user account example (shelby's)
+user account example (shelby's)
 * this has some emails and wishlist things filled out already
 username: sskurz
 pass: geraldine
+
 
 
 ------------------------------- FEATURE CHECKLIST -------------------------------
