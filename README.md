@@ -1,12 +1,12 @@
 # BuyMyFurniture
 Project for course PIDM
 
----------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------
 
                        BuyMyFurniture readme.txt
 	                      Written by Shelby Kurz
 
-----------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------
 
 This project was created and coded by Shelby Kurz (sskurz@rutgers.edu) 
 and earned a 100 as the final grade
@@ -19,7 +19,7 @@ Submitted: April 2019
 
 
 
----------------------- Necessary credentials -------------------------------
+---------------------- Necessary credentials ------------------------------
 -------- URL
 http://ec2-18-221-239-241.us-east-2.compute.amazonaws.com:8080/BuyMyFurniture/
 
@@ -36,14 +36,14 @@ http://ec2-18-221-239-241.us-east-2.compute.amazonaws.com:8080/BuyMyFurniture/
 
 
 
-------------------------------- BuyMyFurniture Logins -----------------------------------
+------------------------------- BuyMyFurniture Logins --------------------------
 -------- user account example (shelby's)
 * this has some emails and wishlist things filled out already
 username: sskurz
 pass: geraldine
 
 
-------------------------------- FEATURE CHECKLIST -----------------------------------
+------------------------------- FEATURE CHECKLIST -------------------------------
 This project includes all basic and advanced features from the checklist provided to us:
 
 
