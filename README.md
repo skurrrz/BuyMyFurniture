@@ -36,7 +36,7 @@ http://ec2-18-221-239-241.us-east-2.compute.amazonaws.com:8080/BuyMyFurniture/
 	- For any auction viewed, a history of bids is displayed and the option to view similar
 		past auctions from at least one month prior is given 
 
--Alerts and Messaging functions
+- Alerts and Messaging functions
 	- BuyMyFurnitureAlerts will message users if another higher bid has been placed
 	- In the case of two autobids bidding against each other, the email will only send
 		at the end of the cycle, and will only email the losing bidder (thus no spamming
